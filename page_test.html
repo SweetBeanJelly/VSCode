@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Web Design</title>
+    <link href="styles/page_style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Italianno&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+        function realTime() {
+            var clock = document.getElementById("clock"); // div id값 저장
+            var now = new Date();
+            clock.innerHTML = 
+                now.getFullYear() + "-" +
+                (now.getMonth()+1) + "-" +
+                now.getDate() + "　" +
+                now.getHours() + " : " +
+                now.getMinutes();
+                setTimeout("realTime()", 1000);
+        }
+        window.onload = function() {
+            realTime();
+        }
+    </script>
+</head>
+
+<body>
+    <input id="button" type="checkbox" />
+    <label for="button">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <nav>
+        <ul>
+            <li><a href="#">Menu #1</a></li>
+            <li><a href="#">Menu #2</a></li>
+            <li><a href="#">Menu #3</a></li>
+        </ul>
+    </nav>
+
+    <a id="title" href="page_test.html">Jeju Island</a>
+
+    <div id="content">
+        <div class="web-con">
+            <div class="web-title">title sample</div>
+            <div class="web-time" id="clock"></div>
+            <div class="web-group">
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="footer"><a href="http://blog.daum.net/chutedeau">Blog.</div>
+
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+@font-face {
+    font-family: "font";
+    src: local("배달의민족 주아"),
+    url(/TwitterWeb/font/JUA.woff) format("woff"),
+    url(/TwitterWeb/font/JUA.ttf) format("truetype");
+}
+body {
+    background-color: white;
+}
+#menu-bar {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0; right: 0; top: 0;
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
+}
+#menu-bar > ul {
+    list-style: none;
+    font-size: 21px;
+}
+#menu-bar > ul > li {
+    display: inline;
+    padding-left: 80px;
+}
+#menu-bar > ul > li > a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#menu-bar > ul > li > a > img {
+    position: fixed;
+    top: 7px;
+    width: 35px;
+    height: 35px;
+    z-index: 10;
+}
+#profile-header {
+    height: 300px;
+    background-color: rgb(255, 75, 118);
+}
+#profile-pic {
+    position: absolute;
+    margin-left: 100px;
+    top: 180px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 75, 118);
+    border: 5px solid white;
+    z-index: 2;
+    border-radius: 15px;
+}
+#left-column {
+    font-family: "font";
+    float: left;
+    width: 300px;
+    height: 100%;
+    margin-left: 100px;
+}
+#profile-name {
+    font-size: 26px;
+    margin-left: 10px;
+    margin-top: 102px;
+    margin-bottom: 0px;
+    color: rgb(36, 36, 36);
+}
+#profile-id {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 75, 118);
+}
+#profile-content {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 45px;
+    font-size: 18px;
+    color: rgb(36, 36, 36);
+}
+#profile-site {
+    color: rgb(255, 75, 118);
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
+#left-column > img {
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+    margin-bottom: -3px;
+}
+#follow-menu {
+    height: 300px;
+    margin-top: 20px;
+    border: 2px solid rgb(253, 101, 136);
+    border-radius: 8px;
+    
+}
+#follow-title-div {
+    float: left;
+}
+#follow-title {
+    margin-left: 15px;
+    font-size: 20px;
+    background-color: aqua;
+}
+#follow-re {
+    background-color: aqua;
+}
+#follow-all {
+    background-color: aqua;
+}
+#hash-tag {
+    height: 300px;
+    margin-top: 10px;
+    border: 2px solid rgb(253, 101, 136);
+    border-radius: 8px;
+}
+#copyright {
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 15px;
+    color: rgb(221, 221, 221);
+}
+
+#Main-column {
+    position: right;
+    height: 300px;
+    margin-right: 100px;
+    margin-left: 400px;
+    background-color: yellowgreen;
+}
